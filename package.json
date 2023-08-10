@@ -1,0 +1,19 @@
+{
+  "name": "trpc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "tsx server/index.ts",
+    "client": "tsx client/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/client": "^10.37.1",
+    "@trpc/server": "^10.37.1",
+    "tsx": "^3.12.7",
+    "zod": "^3.21.4"
+  }
+}
